@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			
+	function alterarcampo(){
+
+	    var teste = document.getElementById("luiz1").value;
+	    if ( teste == 1 )
+	    {
+	    	document.getElementById("luiz1").value = "op01";
+	    }
+	  	else if ( teste == 2) {
+
+	  	}
+	  	alert('pagina corrompida');
+	  }
+		</script>
+		<title>javascript</title>
+	</head>
+	<body>
+		<input type="text" name="luiz" id="luiz1">
+		<button onclick="alterarcampo();">clique aqui </button>
+	</body>
+</html>
